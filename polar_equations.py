@@ -16,8 +16,8 @@ def get_user_parameters():
     
     # Rose Curve: r = a*sin(n*theta)
     print(f"Rose Curve: r = a*sin(n*θ)\n")
-    a_rose = float(input("  Enter amplitude (a) [default=2]: ") or 2) # a determines the amplitude of the curve
-    n_rose = float(input("  Enter number of petals (n) [default=4]: ") or 4) # n determines the number of petals (if n is odd, n petals; if n is even, 2n petals)
+    a_rose = float(input("  Enter amplitude (a) [default=2]: ")) # a determines the amplitude of the curve
+    n_rose = float(input("  Enter number of petals (n) [default=4]: ")) # n determines the number of petals (if n is odd, n petals; if n is even, 2n petals)
     
     # Lemniscate: r = sqrt(a*cos(2*theta))
     print(f"Lemniscate: r = √(a*cos(2*θ))\n")
